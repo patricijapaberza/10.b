@@ -1,0 +1,42 @@
+#main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 5px;
+}
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: lightgrey;
+}
+#item2 {
+background-color: deeppink;
+}
+#item3 {
+    background-color: deeppink;
+}
+#item4 {
+    background-color: deeppink;
+}
+#item5 {
+    background-color: deeppink;
+}
+#item6 {
+    grid-column-start: 9;
+    grid-column-end: 10;
+    background-color: lightblue;
+}
+#item7 {
+    grid-column-start: 11;
+    grid-column-end: 12;
+    background-color: lightblue;
+}
+#item8 {
+    grid-column-start: 13;
+    grid-column-end: 15;
+    background-color: chartreuse;
+}
+#item9 {
+    background-color: chocolate;
+}
