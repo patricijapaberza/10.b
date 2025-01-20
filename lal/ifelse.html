@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>JavaScript If, Else</title>
+    </head>
+    <body>
+        <h1>JavaScript If, Else</h1>
+        <p>Ievadiet stundu (1-24)</p>
+        <input type="skaitlis" id="lietotajaStundas">
+        <button onclick="izvadaSveicienu()">Apstiprināt</button>
+        <p>Sveiciens:</p>
+        <p id="izveidesSveiciens"></p>
+        <script>
+            function izvadaSveicienu(){
+                // iegūst lietotāja ievadītos datus
+            const h =document.getElementById("lietotajaStundas").value;
+        let sveiciens;
+        // pārbauda vai ievadītā vērtība mazāka par 11
+        if(h<10){
+            sveiciens="Labrīt";
+        }
+        else if (h<20){
+            sveiciens="Labdien"; 
+        }else {
+            sveiciens="Labvakar";}
+    }
+    // parāda sveicienu
+}
+    document.getElementById("izvadaSveiciens").innerHTML=sveiciens;
+}
+        </script>
+    </body>
+</html>
